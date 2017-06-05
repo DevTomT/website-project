@@ -1,0 +1,286 @@
+@font-face {
+   font-family: Roboto;
+   src: url("../fonts/roboto-regular.ttf");
+}
+
+@font-face {
+   font-family: Lobster;
+   src: url("../fonts/lobster-regular.ttf");
+}
+
+.carousel-inner img {
+   width: 100%;
+   height: auto;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   padding-top: 50px;
+   background-color: #faf9f9;
+   font-family: Roboto;
+}
+
+.carousel-wrapper {
+   padding: 0;
+}
+
+.navbar-brand {
+   font-family: Lobster;
+   font-size: 24px;
+   color: #f77a1e !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+   color: white !important;
+   background-color: #f77a1e !important;
+}
+
+.up {
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #9ca5ed;
+   margin: 10px;
+   border-radius: 50%;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   z-index: 100;
+   opacity: 0.6;
+}
+
+.up:hover {
+   opacity: 0.8;
+}
+
+#greetings {
+   position: relative;
+}
+
+#header-text {
+   position: relative;
+}
+
+.sec-columns h2 {
+   color: #ff6c00;
+}
+
+.jumbotron {
+   box-shadow: 0px 5px 10px #7c7a7a;
+   background-color: #853962;
+   font-family: lobster;
+   color: white;
+   margin: 0;
+}
+
+.sec-columns div {
+   margin: 100px 0;
+}
+
+.img-container {
+   border-top: 5px solid #f77a1e;
+}
+
+.img-container h2 {
+   margin: 0;
+   padding: 20px;
+   color: #fff;
+}
+
+.images-wrapper>div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 400px;
+}
+
+.box {
+   text-align: center;
+   background-color: rgba(255, 255, 255, 0.5);
+   width: 80%;
+   height: 50%;
+   overflow: auto;
+   border-radius: 40px;
+   transition-duration: .3s;
+   position: relative;
+}
+
+.box:hover {
+   background-color: rgba(255, 255, 255, 0.8);
+   ;
+}
+
+.box p {
+   color: #000000;
+   font-weight: 600;
+   padding: 0 20px;
+}
+
+.box h2 {
+   font-weight: 600;
+   color: black;
+   padding: 20px;
+}
+
+#block1 {
+   background: url(../img/block01.jpg) no-repeat center;
+   background-size: cover;
+}
+
+#block2 {
+   background: url(../img/block02.jpg) no-repeat center;
+   background-size: cover;
+}
+
+#block3 {
+   background: url(../img/block03.jpg) no-repeat center;
+   background-size: cover;
+}
+
+#block4 {
+   background: url(../img/block04.jpg) no-repeat center;
+   background-size: cover;
+}
+
+.animals {
+   background-color: #2c2b2b;
+   border-top: 5px solid #fc8026;
+}
+
+.animals p {
+   max-width: 400px;
+   color: #e2e3e3;
+}
+
+.animals h3 {
+   color: #f77a1e;
+   font-family: Lobster;
+}
+
+.animals>div>div {
+   padding-top: 100px;
+   padding-bottom: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   color: #fff;
+}
+
+.animals img {
+   margin: 10px 0 20px;
+   box-shadow: 10px 10px 10px #1d1d1d;
+   opacity: 0.8;
+   transition-duration: .3s;
+}
+
+.animals img:hover {
+   box-shadow: 12px 12px 10px #1d1d1d;
+   opacity: 1.0;
+   transform: rotate(10deg) scale(1.05, 1.05);
+}
+
+.contact-form {
+   padding: 100px 20px;
+   color: #515152;
+}
+
+.contact-form h3 {
+   text-align: center;
+   padding-bottom: 50px;
+}
+
+.contact-wrapper {
+   text-align: center;
+}
+
+.contact-wrapper span {
+   font-size: 80px;
+   color: #f77a1e;
+}
+
+.contact-wrapper p {
+   color: #4b5486;
+   font-weight: 600
+}
+
+#asterisk {
+   color: #fa2525;
+}
+
+.page-footer {
+   background-color: #67bef5;
+   border-top: 5px solid #3c8bbe;
+}
+
+.in-footer {}
+
+.page-footer p {
+   color: white;
+   font-weight: 600;
+}
+
+.page-footer p:hover {
+   color: #4b5486;
+}
+
+.page-footer p:hover {
+   color: #4b5486;
+}
+
+#copyright {
+   color: #4b5486;
+   padding: 50px 0;
+}
+
+.social-icons {
+   font-size: 50px;
+   background-color: #115050;
+   box-shadow: 0px 5px 10px #0073ba;
+   color: white;
+}
+
+.icon-wrapper {
+   padding: 0;
+}
+
+#fb:hover {
+   background-color: #4668b3;
+}
+
+#yt:hover {
+   background-color: #d94348;
+}
+
+#tw:hover {
+   background-color: #3095d3;
+}
+
+.links {
+   padding-top: 30px;
+}
+
+.slide-animation {
+   visibility: hidden;
+}
+
+.slideY {
+   animation-name: slide;
+   animation-duration: 1s;
+   visibility: visible;
+}
+
+@keyframes slide {
+   0% {
+      opacity: 0;
+      transform: translateY(70%);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0%);
+   }
+}
